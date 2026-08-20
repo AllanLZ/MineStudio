@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">MineStudio workflow</title>
+  <desc id="desc">A Bedrock world is opened, analyzed, visualized and protected with validation and backup.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0e1823"/><stop offset="1" stop-color="#13283a"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity=".24"/></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#79d98a"/></marker>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#f4f8fb" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700">How MineStudio works</text>
+  <text x="60" y="104" fill="#aabcca" font-family="Segoe UI, Arial, sans-serif" font-size="18">A simplified workflow for understanding and safely working with a Bedrock world.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" filter="url(#shadow)">
+    <rect x="60" y="160" width="230" height="130" rx="18" fill="#1d3447" stroke="#4f7794"/>
+    <text x="175" y="210" fill="#79d98a" font-size="30" text-anchor="middle">1</text><text x="175" y="245" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">Open world</text><text x="175" y="269" fill="#b9cad6" font-size="15" text-anchor="middle">Folder or .mcworld file</text>
+    <rect x="350" y="160" width="230" height="130" rx="18" fill="#1d3447" stroke="#4f7794"/>
+    <text x="465" y="210" fill="#79d98a" font-size="30" text-anchor="middle">2</text><text x="465" y="245" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">Analyze</text><text x="465" y="269" fill="#b9cad6" font-size="15" text-anchor="middle">World, chunks and players</text>
+    <rect x="640" y="160" width="230" height="130" rx="18" fill="#1d3447" stroke="#4f7794"/>
+    <text x="755" y="210" fill="#79d98a" font-size="30" text-anchor="middle">3</text><text x="755" y="245" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">Visualize</text><text x="755" y="269" fill="#b9cad6" font-size="15" text-anchor="middle">Maps and focused tools</text>
+    <rect x="930" y="160" width="230" height="130" rx="18" fill="#1d3447" stroke="#4f7794"/>
+    <text x="1045" y="210" fill="#79d98a" font-size="30" text-anchor="middle">4</text><text x="1045" y="245" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">Protect</text><text x="1045" y="269" fill="#b9cad6" font-size="15" text-anchor="middle">Validate and back up</text>
+  </g>
+  <path d="M290 225H340M580 225H630M870 225H920" stroke="#79d98a" stroke-width="5" marker-end="url(#arrow)"/>
+</svg>

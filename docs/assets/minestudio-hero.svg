@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+  <title id="title">MineStudio</title>
+  <desc id="desc">MineStudio — inspect, edit and optimize Minecraft Bedrock worlds.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b12"/>
+      <stop offset="0.55" stop-color="#11131e"/>
+      <stop offset="1" stop-color="#1b0d19"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#ff2e63" stop-opacity="0.24"/>
+      <stop offset="0.55" stop-color="#ff2e63" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ff2e63" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2e63"/>
+      <stop offset="1" stop-color="#ff5b85"/>
+    </linearGradient>
+    <pattern id="grid" width="68" height="68" patternUnits="userSpaceOnUse">
+      <path d="M68 0H0V68" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1440" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1440" height="420" rx="28" fill="url(#glow)"/>
+  <rect width="1440" height="420" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1438" height="418" rx="27" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+
+  <g transform="translate(92 106) scale(4.35)" filter="url(#shadow)">
+    <path d="M2 9 16 2l14 7-14 7z" fill="#79c04a"/>
+    <path d="M2 9v14l14 7V16z" fill="#7a5230"/>
+    <path d="M30 9v14l-14 7V16z" fill="#603f24"/>
+    <path d="M2 9v3l14 7v-3z" fill="#5da438"/>
+    <path d="M30 9v3l-14 7v-3z" fill="#4f8c2f"/>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="270" y="162" fill="#ffffff" font-size="72" font-weight="800" letter-spacing="-2">Mine</text>
+    <text x="438" y="162" fill="#ff2e63" font-size="72" font-weight="800" letter-spacing="-2">Studio</text>
+    <text x="274" y="208" fill="#c6c8d2" font-size="24" font-weight="500">Inspect, edit and optimize Minecraft Bedrock worlds.</text>
+
+    <g transform="translate(274 249)">
+      <rect width="154" height="44" rx="22" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="77" y="28" text-anchor="middle" fill="#e7e8ee" font-size="16" font-weight="650">WORLD EDITING</text>
+      <rect x="166" width="132" height="44" rx="22" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="232" y="28" text-anchor="middle" fill="#e7e8ee" font-size="16" font-weight="650">CHUNKS</text>
+      <rect x="310" width="142" height="44" rx="22" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="381" y="28" text-anchor="middle" fill="#e7e8ee" font-size="16" font-weight="650">PLAYERS</text>
+      <rect x="464" width="148" height="44" rx="22" fill="#ffffff" fill-opacity="0.055" stroke="#ffffff" stroke-opacity="0.09"/>
+      <text x="538" y="28" text-anchor="middle" fill="#e7e8ee" font-size="16" font-weight="650">SERVERS</text>
+    </g>
+  </g>
+
+  <g transform="translate(1000 80)" filter="url(#shadow)">
+    <rect width="330" height="260" rx="24" fill="#0c111a" fill-opacity="0.86" stroke="#ffffff" stroke-opacity="0.1"/>
+    <rect x="22" y="22" width="286" height="54" rx="14" fill="#141a25"/>
+    <circle cx="46" cy="49" r="8" fill="#3ddc84"/>
+    <rect x="66" y="39" width="112" height="8" rx="4" fill="#ffffff" fill-opacity="0.78"/>
+    <rect x="66" y="54" width="82" height="6" rx="3" fill="#ffffff" fill-opacity="0.22"/>
+
+    <g transform="translate(22 94)">
+      <rect width="88" height="68" rx="14" fill="#151b27"/>
+      <rect x="99" width="88" height="68" rx="14" fill="#151b27"/>
+      <rect x="198" width="88" height="68" rx="14" fill="#151b27"/>
+      <text x="16" y="30" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800">MAP</text>
+      <text x="115" y="30" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800">EDIT</text>
+      <text x="214" y="30" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="800">HOST</text>
+      <rect x="16" y="42" width="45" height="6" rx="3" fill="#79c04a"/>
+      <rect x="115" y="42" width="45" height="6" rx="3" fill="#a855f7"/>
+      <rect x="214" y="42" width="45" height="6" rx="3" fill="#3b9dff"/>
+    </g>
+
+    <rect x="22" y="180" width="286" height="58" rx="14" fill="#2b1f13" stroke="#fbbf24" stroke-opacity="0.28"/>
+    <path d="M46 196h12l-8 13h9l-17 17 5-14h-9z" fill="#fbbf24"/>
+    <text x="72" y="206" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">WORLD OPTIMIZER</text>
+    <text x="72" y="224" fill="#fbbf24" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Analyze before changing anything.</text>
+  </g>
+
+  <rect x="0" y="408" width="1440" height="12" rx="0" fill="url(#pink)"/>
+</svg>
