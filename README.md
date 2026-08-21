@@ -11,9 +11,9 @@
 
 # MineStudio
 
-**A visual desktop toolkit for inspecting, editing and optimizing Minecraft Bedrock worlds.**
+**A visual desktop toolkit for inspecting, editing and optimizing Minecraft Bedrock worlds — now also capable of creating Bedrock add-ons.**
 
-MineStudio brings world management, save editing, chunk exploration, player and inventory tools, storage optimization and local server controls into one Windows desktop application. It works with Bedrock world folders and exported `.mcworld` files, including worlds exported from consoles.
+MineStudio brings world management, save editing, chunk exploration, player and inventory tools, storage optimization, local server controls and a new **Add-on Studio** into one Windows desktop application. It works with Bedrock world folders and exported `.mcworld` files, including worlds exported from consoles.
 
 > **Public showcase:** this repository documents the current application and its verified capabilities. Source code, binaries, internal algorithms, detailed storage formats and private test artifacts are intentionally not published here.
 
@@ -30,6 +30,7 @@ MineStudio brings world management, save editing, chunk exploration, player and 
 | Inventory | Main inventory, ender chest, equipment, item editing and enchantments |
 | Entities | Browse stored entities, inspect counts and perform bulk cleanup |
 | Optimization | Analyze storage and create a separate optimized world copy |
+| Add-on Studio | **Beta:** visually build Bedrock add-ons, manage versions, export `.mcaddon` packages and install them into Minecraft |
 | Servers | Create, configure and operate local Bedrock server instances |
 | Safety | Validation, automatic snapshots, backups and explicit confirmations |
 
@@ -54,6 +55,16 @@ The inventory editor works across the main inventory, ender chest, armour, main 
 MineStudio can inspect the entities stored in a world, group them by type and category, surface named entities and perform bulk removal of a selected type — useful when large numbers of dropped items or other entities need to be cleaned up.
 
 Entity spawning is available as an **experimental** feature and is intentionally presented separately from the stable inspection and cleanup tools.
+
+## Add-on Studio — Beta
+
+MineStudio now includes a **beta Add-on Studio** for creating Minecraft Bedrock add-ons through a visual workflow instead of manually assembling pack files.
+
+The current tested workflow can create and maintain add-on projects, save project versions, define custom items and weapons, configure properties such as damage and durability, create recipes, export the finished project as a `.mcaddon` package and send it directly to Minecraft for installation.
+
+The editor is being expanded around dedicated areas for **items & weapons, ores & blocks, mobs & creatures, dimensions & biomes, music & sounds and recipes**. Not every category should be considered complete yet; the feature remains explicitly marked as **Beta** while compatibility and generation coverage continue to grow.
+
+Even at this stage, internal testing has already produced **promising results**, with generated add-ons successfully reaching the export and installation workflow. The goal is to make Bedrock add-on creation accessible from the same desktop environment used to inspect and manage worlds.
 
 ## World optimization
 
@@ -100,6 +111,7 @@ MineStudio is a functional Windows desktop application under active development.
 | Status | Areas |
 |---|---|
 | **Stable** | World library, world settings, world summary, Chunk Explorer, player editing, inventory/enchantments, entity browsing and cleanup, validation, snapshots/backups, standard World Optimizer |
+| **Beta** | Add-on Studio — visual add-on projects, custom items/weapons, recipes, version management and `.mcaddon` export/install workflow |
 | **Experimental** | Smart Chunk Optimizer, entity spawning |
 | **In development** | Server tools |
 | **Planned / not implemented** | Redstone tools shown as coming soon in the hub |
